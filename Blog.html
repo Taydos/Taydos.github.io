@@ -96,6 +96,66 @@
                         <!--End of First Blog Post -->
                   </div>
                 </div>
+                
+                
+                <div class="card">
+                    <h2>Data Warehouse: Architecture & Metadata</h2>
+                     <h5>by Thato Tshukudu, April 27, 2021</h5>
+                     <div class="fakeimg0" style="height:200px;"></div>
+                     <div>
+                           <!-- Beginning of Blog post -->
+                           <p>
+                           <br>
+                           This blog post is written to satisfy the requirements of Portfolio Task 3 - INF 715
+                           <span id="dots">...</span><span id="more">
+                           
+                           <br>
+                           <br>
+                                <i> Given your Covid-19 analysis data warehouse, which of the architectural types of a data warehouse will you implement and why? </i>
+                           <br>
+                           <br>
+                           (Ponniah, 2010) describes a centralized data warehouse as having no data marts and information delivery coming from the data warehouse itself. An independent data warehouse is seen by (Ponniah, 2010) as a collection of separated data marts that each serve a department. A federated architecture is an independent architecture-style with data elements and warehouses integrated “physically or logically”. A hub-and-spoke architecture is one that has data marts that depend on the main data warehouse for data feed (Ponniah, 2010).
+                           <br>
+                           <br>
+                           
+                           My choice: <b> Data-mart bus architecture </b> <br>
+                           According to (Poolet, 2007), a database warehouse architecture is one that is made up of tightly-integrated data marts which draw their essence from a “common set of conformed dimensions and facts”. My suggestion in applying this architecture stems from the fact that unlike an independent data mart architecture, which is built up by data marts from departments which are unrelated in dimensions, a data-mart allows stakeholders to agree on dimensions that must be the same throughout all the data marts. This is important to note because the COVID-19 data warehouse captures the same COVID-related data from each province. Each province does not capture its own unique data but uses a set of dimensions decided by scientists to be applied to each province for gathering the COVID-19 data. Furthermore, a data-mart bus still maintains the principles of a centralized data warehouse, which the COVID-19 data warehouse is.
+                           <br>
+                           <br>
+                           <i> What will be the role of metadata in your warehouse? </i>
+                           <br>
+                           According to (Hamad & Jihad, 2012), metadata serves for “administrative, maintenance and usage” purposes. Metadata helps to ensure consistency of definitions and clarifying the different relationships that exist within the data.
+                           
+                           <br>
+                           <i> List at least 5 types of meta-data that are important and relevant to your data warehouse.</i>
+                           <br>
+                           <ol>
+                            <li>Back-end metadata: this will help the DBA with the ETL processes </li>
+                            <li>Front-end metadata: this will help end-users to work with the reports</li>
+                            <li>Process metadata: this will monitor process data and record them as facts, such as the time taken to load into the data warehouse.</li>
+                            <li>Technical metadata: will store technical data such as table attributes, primary and foreign key attributes.</li>
+                            <li>Business metadata: derived from the business rules of the COVID-19 DW and used for business terms for analysts and managers.</li>
+                            </ol>
+                           
+                           <br>
+                           
+                           <b>References</b>
+                           
+                           <ul>
+                                <li>Hamad, M.M and Jihad, A.A (2012). The role of metadata for effective data warehouse. Journal of university of anbar for pure science. Vol (6), no.2, pp. 1-6.</li>
+                           
+                                <li>Ponniah, P. (2010). Data warehousing fundamentals for IT professionals. United States: Wiley.</li>
+                           
+                                <li>Poolet, M.A. (2007). The data warehouse bus architecture. Available at: https://www.itprotoday.com/sql-server/data-warehouse-bus-architecture (Accessed: 27 April 2021).</li>
+                           </ul>
+                           
+                           </span>
+                           </p>
+                           <button onclick="myFunction()" id="myBtn">Read more</button>
+                           
+                           <!--End of First Blog Post -->
+                     </div>
+                   </div>
 
               </div>
               <div class="rightcolumn">
