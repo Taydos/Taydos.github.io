@@ -1,6 +1,6 @@
 body {
      background: linear-gradient(25deg,#16054A,#C8A6B4);
-    color: #000;
+    color: white;
     font-family: 'Alegreya Sans', sans-serif;
     letter-spacing: 2px;
     padding-bottom: 60px;
@@ -35,14 +35,14 @@ h1 {
 
 h2 {
     font-size: 1.3em;
-    background: #fcfcfc;
+    background: black;
     padding: 10px;
 }
 
 h3 {
     font-size: 1.4em;
     text-transform: uppercase;
-    color: #000;
+    color: white;
     margin-top: 0;
 }
 
