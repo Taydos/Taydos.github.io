@@ -2,14 +2,14 @@
 #more1 {display: none;}
 
 .container {
-    background: #c8cccc;
+     background: linear-gradient(25deg,#16054A,#C8A6B4);
     padding: 70px 75px;
     margin: 50px auto;
     border: 1px solid #a5d4fc;
 }
 
 body {
-background: #c8cccc;
+ background: linear-gradient(25deg,#16054A,#C8A6B4);
   font-family: Arial;
   padding: 20px;
   
